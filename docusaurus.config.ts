@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ohhmaar/docusaurus-scalar/',
         },
         blog: {
           showReadingTime: true,
@@ -70,7 +70,7 @@ const config: Config = {
       '@scalar/docusaurus',
       {
         label: 'Scalar',
-        route: '/scalar',
+        route: '/docusaurus-scalar/scalar',
         configuration: {
           spec: {
             url: 'https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.json',
